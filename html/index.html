@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Index{% end block title %}</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/test.css">
+</head>
+<body>
+    <h3 class="color-green"><a href="/">Main page</a></h3>
+
+    {% block header %}
+    <h2 class="color-green">Sub header 1</h2>
+    {% end block header %}
+
+    {% block content %}
+    <p><a href="/example.html">/example.html</a></p>
+    <p><a href="/test/example.html">/test/example.html</a></p>
+    {% end block content %}
+
+    {% include "footer.html" %}
+</body>
+</html>
