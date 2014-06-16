@@ -32,8 +32,8 @@ Layout
 
 ###Доступные настройки
 
-`--host` - адрес сервера для запуска приложения (по умолчанию: 127.0.0.1)
-`--port` - адрес сервера для запуска приложения (по умолчанию: 8000)
+* `--host` - адрес сервера для запуска приложения (по умолчанию: 127.0.0.1)
+* `--port` - адрес сервера для запуска приложения (по умолчанию: 8000)
 
 Пример: для доступа к просмотру вашего проекта по порту `8080` другим пользователям сети, нужно выполнить команду
 
@@ -43,9 +43,10 @@ Layout
 
 ###Работа со статикой:
 
-В директории `static` должны располагаться css, js, jpg и т.п. файлы, доступ к которым можно получить по ссылке, к примеру
-[http://localhost:8000/static/css/test.css](http://localhost:8000/static/css/test.css)
-[http://localhost:8000/static/js/jquery.js](http://localhost:8000/static/js/jquery.js)
-[http://localhost:8000/static/images/example.jpg](http://localhost:8000/static/images/example.jpg)
+В директории `static` должны располагаться css, js, jpg и т.п. файлы, доступ к которым можно получить по ссылке, к примеру:
 
-Примеры взаимодействия с html-файлами можно изучить на примере имеющихся в проекте
+* [http://localhost:8000/static/css/test.css](http://localhost:8000/static/css/test.css)
+* [http://localhost:8000/static/js/jquery.js](http://localhost:8000/static/js/jquery.js)
+* [http://localhost:8000/static/images/example.jpg](http://localhost:8000/static/images/example.jpg)
+
+Взаимодействия с html-файлами можно изучить на примере имеющихся в проекте
